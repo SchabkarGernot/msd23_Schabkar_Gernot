@@ -27,7 +27,7 @@ to find better algorythm, contact:
 ### other work:
 
 - [Exercise1](exercise1.md)
-- Exercise2
+- [Exercise2](exercise2.md)
 - Exercise3
 - Exercise4
 - Exercise5
