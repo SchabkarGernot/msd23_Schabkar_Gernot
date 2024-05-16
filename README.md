@@ -21,8 +21,10 @@ Tipp 54: # [4, 5, 10, 42, 45] * [10, 12]
 
 ## Author
 
-to find better algorythm, contact:
-[gernot schabkar](gernot@schabkar.com) 
+My GitHub, contact:
+[gernot schabkar](https://github.com/SchabkarGernot) 
+My University:
+[FH JOANNEUM] (https://fh-joanneum.at)
 
 ### other work:
 
