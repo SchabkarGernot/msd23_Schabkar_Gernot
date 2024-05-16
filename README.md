@@ -1,4 +1,4 @@
-# Euromillionen
+git# Euromillionen
 Project to generate possible win-guesses in the win2day Lottery.
 Open Euromillionen in intellij and hit run button
 
@@ -22,7 +22,7 @@ Tipp 54: # [4, 5, 10, 42, 45] * [10, 12]
 ## Author
 
 My GitHub, contact:
-[gernot schabkar](https://github.com/SchabkarGernot) 
+[gernot schabkar](https://github.com/SchabkarGernot) \
 My University:
 [FH JOANNEUM] (https://fh-joanneum.at)
 
