@@ -30,7 +30,7 @@ My University:
 
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
-- Exercise3.
+- [Exercise3](exercise3.md)
 - Exercise4
 - Exercise5
 - Exercise6
