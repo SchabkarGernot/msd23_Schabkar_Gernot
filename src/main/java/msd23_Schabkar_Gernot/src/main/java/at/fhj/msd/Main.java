@@ -25,9 +25,9 @@ public class Main {
     }
 
     public static int factorial(int n) {
-        return 0;
-        //if (n<=1) return 1;
-        //return n*factorial(n-1);
+        //return 0;
+        if (n<=1) return 1;
+        return n*factorial(n-1);
     }
     Main() {
         System.out.println("5-4:" + minus(5,4));
