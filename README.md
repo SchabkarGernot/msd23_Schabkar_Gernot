@@ -1,6 +1,5 @@
 git# Euromillionen
-Project to generate possible win-guesses in the win2day Lottery.
-Open Euromillionen in intellij and hit run button
+Calculator Test Projekt
 
 **optional Commandline:**
 
@@ -31,6 +30,6 @@ My University:
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
 - [Exercise3](exercise3.md)
-- Exercise4
+- [Exercise4](exercise4.md)
 - Exercise5
 - Exercise6

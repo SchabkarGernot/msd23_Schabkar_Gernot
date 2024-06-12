@@ -1,8 +1,8 @@
 /*
- * Konfiguration Try 3
- * first package?
+ * Konfiguration Try 4
+ * unittests
  * Author: Gernot Schabkar
- * Last Change: 17.5.2024
+ * Last Change: 12.6.2024
  */
 
 package msd23_Schabkar_Gernot.src.main.java.at.fhj.msd;
