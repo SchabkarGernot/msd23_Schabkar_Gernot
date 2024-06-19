@@ -2,7 +2,8 @@
 *.log
 *.pdf
 *.xml
-.idea/
+.idea
+.idea/*
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
