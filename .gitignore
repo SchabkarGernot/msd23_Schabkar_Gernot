@@ -1,4 +1,5 @@
 *.html
+*.log
 *.pdf
 .idea/
 target/
