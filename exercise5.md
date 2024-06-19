@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="INFO">
+# Lesson 5
+
+## log4j adding debugger logs
+
+## logging template:
+
+```
+ <?xml version="1.0" encoding="UTF-8"?>
+ <Configuration status="INFO">
     <Appenders>
 
         <Console name="Console"
@@ -23,3 +30,5 @@
         </Root>
     </Loggers>
 </Configuration>
+```
+

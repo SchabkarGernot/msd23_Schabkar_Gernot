@@ -25,9 +25,10 @@ public class Main {
     public static double divide(double number1, double number2) {
         logger.debug("Function divide, params: " + number1 + " and " + number2);
         try {
-            if (number2 == 0) logger.error("Function divide, parameter2 = 0 !");
+            if (number2 == 0) logger.error("Function divide1, parameter2 = 0 !");
             return number1 / number2;
         } catch (Exception ArithmeticException) {
+            logger.error("Function divide2, parameter2 = 0 !");
         }
         return 0;
     }
@@ -47,7 +48,7 @@ public class Main {
     Main() {
         System.out.println("5-4:" + minus(5, 4));
         System.out.println("5+4:" + add(5, 4));
-        System.out.println("5/4:" + divide(5, 4));
+        System.out.println("5/4:" + divide(5, 0));
         System.out.println("5*4:" + multiply(5, 4));
         System.out.println("Factor of 5:" + factorial(5));
     }

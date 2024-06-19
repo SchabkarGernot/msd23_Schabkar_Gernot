@@ -1,6 +1,7 @@
 *.html
 *.log
 *.pdf
+*.xml
 .idea/
 target/
 !.mvn/wrapper/maven-wrapper.jar
