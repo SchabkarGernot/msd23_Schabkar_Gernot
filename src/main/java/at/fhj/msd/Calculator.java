@@ -5,12 +5,12 @@
  * Last Change: 12.6.2024
  */
 
-package msd23_Schabkar_Gernot.src.main.java.at.fhj.msd;
+package at.fhj.msd;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Main {
+public class Calculator {
     public static double add(double number1, double number2) {
 
         logger.debug("Function add, params: " + number1 + " and " + number2);
@@ -45,7 +45,7 @@ public class Main {
         return n * factorial(n - 1);
     }
 
-    Main() {
+    Calculator() {
         System.out.println("5-4:" + minus(5, 4));
         System.out.println("5+4:" + add(5, 4));
         System.out.println("5/4:" + divide(5, 0));
@@ -55,11 +55,4 @@ public class Main {
 
     private static Logger logger = LogManager.getLogger();
 
-    public static void main(String[] args) {
-        logger.error("Main function starts");
-        Main calc = new Main();
-        System.out.println("Gernot Schabkar");
-        logger.info("end is near!");
-
-    }
 }
