@@ -31,17 +31,19 @@ public class CalculatorTest {
     @Test
     public void testDivide() {
         assertEquals(1.25, Calculator.divide(5.0, 4.0), "Dividing 5.0 by 4.0 should be 1.25");
-        /*assertThrows(ArithmeticException.class, () ->
+
+/*        assertThrows(ArithmeticException.class, () ->
         {
             assertEquals(Double.POSITIVE_INFINITY, Calculator.divide(5.0, 0), "Dividing 5.0 by 0 should be 0 + error");
-        });*/
+        });
+
+ */
         assertEquals(-1.25, Calculator.divide(5.0, -4.0), "Dividing 5.0 by -4.0 should be -1.25");
         assertEquals(1.25, Calculator.divide(-5.0, -4.0), "Dividing -5.0 by -4.0 should be 1.25");
         // Test for division by zero
         try {
-            // Main.divide(5.0, 0);
-        } catch (
-                ArithmeticException e) {
+            Calculator.divide(5.0, 0);
+        } catch (ArithmeticException e) {
             assertEquals("/ by zero", e.getMessage(), "Dividing by zero should throw ArithmeticException");
         }
 
